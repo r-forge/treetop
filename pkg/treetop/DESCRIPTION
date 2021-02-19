@@ -1,7 +1,7 @@
 Package: treetop
 Type: Package
-Title: A Shiny-based Application for Extracting Forest Information from LiDAR data for Ecologists and Conservationists
-Version: 0.01
+Title: A Shiny-Based Application for Extracting Forest Information from LiDAR Data for Ecologists and Conservationists
+Version: 0.0.1
 Authors@R: c(
     person("Carlos Alberto", "Silva", email = "carlos_engflorestal@outlook.com", role = c("aut", "cre", "cph")),
     person("Andrew", "Hudak", email = "andrew.hudak@usda.gov", role = c("aut", "cph")),
@@ -22,12 +22,13 @@ Authors@R: c(
     person("Caio", "Hamamura", email = "caiohamamura@gmail.com", role = c("aut","ctb")),
     person("Carine", "Klauberg", email = "carine_klauberg@hotmail.com", role = c("aut","ctb")))
 Maintainer: Carlos Alberto Silva <carlos_engflorestal@outlook.com>
-Description: Shiny-based application for processing and visualizing lidar data.
+Description: Set of tools implemented into a shiny-based application for extracting and analyzing individual tree forest attributes from LiDAR data.
 License: GPL-3
 Encoding: UTF-8
 LazyData: true
 Depends:
-  R (>= 3.5.0),
+  R (>= 3.5.0)
+Imports:
   shiny,
   RColorBrewer,
   spatstat,
@@ -36,11 +37,11 @@ Depends:
   sp,
   geometry, 
   maptools, 
-  rgdal, 
-  rgl, 
-  lidR, 
-  pryr, 
-  sf, 
+  rgdal,
+  rgl,
+  lidR,
+  pryr,
+  sf,
   stars,
   rglwidget
 RoxygenNote: 7.1.1
