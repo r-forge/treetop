@@ -19,7 +19,7 @@ options(warn=-1)
 
 ################################################################################
 # server.r
-options(shiny.maxRequestSize= 500*1024^2)
+options(shiny.maxRequestSize= 1000*1024^2)
 options(shiny.deprecation.messages=FALSE)
 
 shinyServer(function(input, output, session) {
@@ -312,7 +312,7 @@ output$summary <- renderTable({
         colS<-input$Pallet
 
         if  ( area_ha > 1000){
-          message = "Displaying the uploaded CHM file. Note: the study area is larger then 1000ha. We will active the tile option."
+          message = "Displaying the uploaded CHM file. Note: the study area is larger then 1000ha. We will activate the tile option."
           detail = "Please select tiles, parameters for processing and click on run!"
         } else{
              message = "Displaying the uploaded CHM file."
