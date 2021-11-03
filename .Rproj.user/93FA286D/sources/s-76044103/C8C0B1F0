@@ -1,0 +1,24 @@
+{
+    "id": "C8C0B1F0",
+    "path": "~/weblidar-treetop/inst/app/server.r",
+    "project_path": "inst/app/server.r",
+    "type": "r_source",
+    "hash": "0",
+    "contents": "",
+    "dirty": false,
+    "created": 1612217318976.0,
+    "source_on_save": false,
+    "relative_order": 2,
+    "properties": {
+        "cursorPosition": "1028,0",
+        "scrollLine": "213"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1613576898,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1613576898,
+    "read_only": false,
+    "read_only_alternatives": []
+}

@@ -1,0 +1,12 @@
+library(treeto)
+library(treetop)
+shiny::runApp
+library(treetop)
+library(treetop)
+library(treetop)
+library(treetop)
+library(treetop)
+library(treetop)
+treeto::runApp()
+install.packages("~/treetop_0.01.tar.gz", repos = NULL, type = "source")
+library(treetop)
